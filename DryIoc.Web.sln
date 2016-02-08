@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DryIoc.Web", "DryIoc.Web\DryIoc.Web.csproj", "{05742B34-D9E7-40D9-886C-A32F837508A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DryIoc.Web.Sample", "DryIoc.Web.Sample\DryIoc.Web.Sample.csproj", "{E7AF27C5-19D5-42D3-90A8-8BA0A86367BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05742B34-D9E7-40D9-886C-A32F837508A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05742B34-D9E7-40D9-886C-A32F837508A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05742B34-D9E7-40D9-886C-A32F837508A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05742B34-D9E7-40D9-886C-A32F837508A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7AF27C5-19D5-42D3-90A8-8BA0A86367BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7AF27C5-19D5-42D3-90A8-8BA0A86367BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7AF27C5-19D5-42D3-90A8-8BA0A86367BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7AF27C5-19D5-42D3-90A8-8BA0A86367BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
