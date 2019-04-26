@@ -1,7 +1,9 @@
-﻿namespace DryIoc.Web.Sample.Services
+﻿using System;
+
+namespace DryIoc.Web.Sample.Services
 {
     public interface ITestService
     {
-        object Value { get; }
+        DateTime CurrentTime { get; }
     }
 }

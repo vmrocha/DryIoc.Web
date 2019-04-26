@@ -1,0 +1,19 @@
+﻿@model DateTime
+
+Current time: <span class="current-time">@Model</span>
+
+@section scripts {
+    <script>
+
+        function updateTime() {
+            $.get("/api/service", function (data) {
+                $(".current-time").html(data);
+                setTimeout(updateTime, 1000);
+            });
+        }
+
+        $(function () {
+            updateTime();
+        });
+    </script>
+}
